@@ -2,3 +2,4 @@ pandas
 plotly
 folium
 streamlit-folium
+altair<5  # ou altair==4.2.2 pour être précis
