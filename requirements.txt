@@ -1,6 +1,9 @@
-pandas
-plotly
-folium
-streamlit-folium
-altair<5
-imghdr
+streamlit==1.37.1  # version stable récente
+pandas==2.2.3
+folium==0.17.0
+streamlit-folium==0.22.0
+requests==2.32.3
+plotly==5.24.1
+altair<5  # fix ton bug Altair (4.2.2 ok)
+rich==13.3.2  # pin pour éviter uninstall
+markdown-it-py==3.0.0  # pin pour éviter uninstall
