@@ -36,8 +36,9 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='glitch'>█▓▒░ MARAUDER WARDRIVE SCANNER v1.0 ░▒▓█</h1>", unsafe_allow_html=True)
-st.caption("ESP32 Marauder + CYD • Paris Wardriving 2026 • Full DIY App")
+st.markdown("<h2 class='glitch'>█▓▒░ MARAUDER WARDRIVE ░▒▓█</h2>", unsafe_allow_html=True)
+st.markdown("<h1 class='glitch'>█▓▒░ BY TRHACKNON ░▒▓█</h1>", unsafe_allow_html=True)
+st.caption("ESP32 Marauder + CYD • Wardriving 2026 • Full DIY App")
 
 # ────────────────────────────────────────────────
 # Uploader fichiers CSV (nouveau !)
