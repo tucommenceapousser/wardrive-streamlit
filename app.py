@@ -176,8 +176,8 @@ if st.sidebar.button("Lister uploads Wigle"):
 # Recherche Wigle (nouveau !)
 st.sidebar.header("█ Recherche Wigle █")
 search_ssid = st.sidebar.text_input("Rechercher SSID (ex: Freebox)")
-search_lat_min, search_lat_max = st.sidebar.slider("Lat range (Paris \~48.8-48.9)", 48.0, 49.0, (48.8, 48.9), step=0.01)
-search_lon_min, search_lon_max = st.sidebar.slider("Lon range (Paris \~2.2-2.5)", 2.0, 3.0, (2.2, 2.5), step=0.01)
+search_lat_min, search_lat_max = st.sidebar.slider(r"Lat range (Paris \~48.8-48.9)", 48.0, 49.0, (48.8, 48.9), step=0.01)
+search_lon_min, search_lon_max = st.sidebar.slider(r"Lon range (Paris \~2.2-2.5)", 2.0, 3.0, (2.2, 2.5), step=0.01)
 if st.sidebar.button("Fetcher de Wigle"):
     try:
         url = "https://api.wigle.net/api/v2/network/search"
